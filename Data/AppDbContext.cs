@@ -25,6 +25,7 @@ namespace CoravelSchedulerApp.Data
             }
         }
         public virtual DbSet<ScheduledJob> scheduledJob { get; set; }
+        public virtual DbSet<JobExecutionLog> JobExecutionLogs { get; set; }
         
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
         protected override void OnModelCreating(ModelBuilder modelBuilder)
