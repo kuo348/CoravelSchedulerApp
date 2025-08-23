@@ -1,0 +1,7 @@
+/home/cooper/repos/CoravelSchedulerApp/obj/Debug/net9.0/CoravelSchedulerApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/cooper/repos/CoravelSchedulerApp/obj/Debug/net9.0/CoravelSchedulerApp.AssemblyInfoInputs.cache
+/home/cooper/repos/CoravelSchedulerApp/obj/Debug/net9.0/CoravelSchedulerApp.AssemblyInfo.cs
+/home/cooper/repos/CoravelSchedulerApp/obj/Debug/net9.0/CoravelSchedulerApp.csproj.CoreCompileInputs.cache
+/home/cooper/repos/CoravelSchedulerApp/obj/Debug/net9.0/CoravelSchedulerApp.MvcApplicationPartsAssemblyInfo.cache
+/home/cooper/repos/CoravelSchedulerApp/obj/Debug/net9.0/CoravelSchedulerApp.RazorAssemblyInfo.cache
+/home/cooper/repos/CoravelSchedulerApp/obj/Debug/net9.0/CoravelSchedulerApp.RazorAssemblyInfo.cs

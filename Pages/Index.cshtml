@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<form method="post">
+    <label>任務名稱：</label>
+    <input type="text" name="JobName" required />
+    <label>Cron 表達式：</label>
+    <input type="text" name="CronExpression" required />
+    <button type="submit">新增排程</button>
+</form>
