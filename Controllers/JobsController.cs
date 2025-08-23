@@ -1,5 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-namespace CoravelSchedulerApp {
+using CoravelSchedulerApp.Data;
+using CoravelSchedulerApp.Services;
+using CoravelSchedulerApp.Models;
+namespace CoravelSchedulerApp.Controllers 
+{
 [ApiController]
 [Route("api/jobs")]
 public class JobsController : ControllerBase
@@ -17,9 +21,9 @@ public class JobsController : ControllerBase
     public async Task<IActionResult> CreateJob([FromBody] ScheduledJob job)
     {
         job.CreatedAt = DateTime.Now;
-        job.IsActive = true;
+        job.IsActive ="N";
 
-        _db.ScheduledJobs.Add(job);
+        _db.scheduledJob.Add(job);
         await _db.SaveChangesAsync();
 
         await _schedulerService.ScheduleAllJobsAsync();

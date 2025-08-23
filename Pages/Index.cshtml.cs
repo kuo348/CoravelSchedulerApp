@@ -1,10 +1,12 @@
+using CoravelSchedulerApp.Data;
+using CoravelSchedulerApp.Models;
+using CoravelSchedulerApp.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using CoravelSchedulerApp.Data;
-using CoravelSchedulerApp.Nodels;
-using CoravelSchedulerApp.Services;
 
-namespace CoravelSchedulerApp{
+
+namespace CoravelSchedulerApp.Pages
+{
 
 public class IndexModel : PageModel
 {
@@ -17,15 +19,16 @@ public class IndexModel : PageModel
 
     [BindProperty]
     public string CronExpression { get; set; }
-    public IndexModel(ILogger<IndexModel> logger)
-    {
-        _logger = logger;
-    }
-    public IndexModel(AppDbContext db, JobSchedulerService scheduler)
+    //public IndexModel(ILogger<IndexModel> logger)
+    //{
+    //    _logger = logger;
+    //}
+    public IndexModel(AppDbContext db, JobSchedulerService scheduler, ILogger<IndexModel> logger)
     {
         _db = db;
         _scheduler = scheduler;
-    }
+            _logger = logger;
+        }
     public void OnGet()
     {
 
@@ -36,11 +39,11 @@ public class IndexModel : PageModel
         {
             JobName = JobName,
             CronExpression = CronExpression,
-            IsActive = true,
+            IsActive = "N",
             CreatedAt = DateTime.Now
         };
 
-        _db.ScheduledJobs.Add(job);
+        _db.scheduledJob.Add(job);
         await _db.SaveChangesAsync();
         await _scheduler.ScheduleAllJobsAsync();
 

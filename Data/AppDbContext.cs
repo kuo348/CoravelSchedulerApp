@@ -1,12 +1,42 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
+using CoravelSchedulerApp.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
-namespace CoravelSchedulerApp{
-public class AppDbContext : DbContext
+using Microsoft.Identity.Client;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+namespace CoravelSchedulerApp.Data
 {
-    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+    public partial class AppDbContext : DbContext
+    {
 
-    public DbSet<ScheduledJob> ScheduledJobs { get; set; }
-}
+        public AppDbContext(DbContextOptions<AppDbContext> options) :
+            base(options)
+        {
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                //warning To protect potentially sensitive information in your connection string,
+                //you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration -
+                //see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Server=.;Database=Coravel;Trusted_Connection=True;MultipleActiveResultSets=true");
+            }
+        }
+        public virtual DbSet<ScheduledJob> scheduledJob { get; set; }
+        
+        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ScheduledJob>(entity =>
+            {
+                entity.HasKey(k => k.Id);
+            });
+            OnModelCreatingPartial(modelBuilder);
+        }
+
+        
+
+    }
 }

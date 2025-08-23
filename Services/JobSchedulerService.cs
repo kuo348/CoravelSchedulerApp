@@ -1,0 +1,39 @@
+﻿
+using Coravel.Scheduling.Schedule.Interfaces;
+using CoravelSchedulerApp.Data;
+using Microsoft.EntityFrameworkCore;
+namespace CoravelSchedulerApp.Services
+{
+    public class JobSchedulerService
+    {
+        private readonly IScheduler _scheduler;
+        private readonly AppDbContext _db;
+
+        public JobSchedulerService(IScheduler scheduler, AppDbContext db)
+        {
+            _scheduler = scheduler;
+            _db = db;
+        }
+
+        public async Task ScheduleAllJobsAsync()
+        {
+
+  
+            var q = from x in _db.scheduledJob
+                    where x.IsActive == "Y"
+                    select x;
+            //var jobs = await _db.ScheduledJobs.Where(j => j.IsActive.Equals("Y")).ToListAsync();
+            var jobs =  q.ToList();
+            foreach (var job in jobs)
+            {
+                _scheduler.Schedule(() => ExecuteJob(job.JobName))
+                          .Cron(job.CronExpression);
+            }
+        }
+
+        public void ExecuteJob(string jobName)
+        {
+            Console.WriteLine($"執行任務：{jobName}，時間：{DateTime.Now}");
+        }
+    }
+}
