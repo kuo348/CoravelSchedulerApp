@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoravelSchedulerApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d32efe781e23da67d57339735dd17eeb0fe28b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb713c5726cc60ae4ea455fcb44ff6473487dc44")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoravelSchedulerApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoravelSchedulerApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
