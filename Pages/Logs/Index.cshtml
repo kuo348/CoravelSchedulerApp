@@ -1,0 +1,28 @@
+@page
+@model IndexModel
+<div class="container mt-4">
+    <h2>📜 任務執行紀錄</h2>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>任務名稱</th>
+                <th>類型</th>
+                <th>時間</th>
+                <th>結果</th>
+                <th>訊息</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var log in Model.Logs)
+            {
+                <tr>
+                    <td>@log.Job.JobName</td>
+                    <td>@log.Job.Type</td>
+                    <td>@log.ExecutedAt.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@(log.IsSuccess ? "✅ 成功" : "❌ 失敗")</td>
+                    <td>@log.Message</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

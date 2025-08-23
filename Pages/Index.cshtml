@@ -1,17 +1,34 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "新增排程任務";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-4">
+    <h2>新增排程任務</h2>
+    <form method="post" class="row g-3">
+        <div class="col-md-6">
+            <label class="form-label">任務名稱</label>
+            <input type="text" asp-for="JobName" class="form-control" required />
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Cron 表達式</label>
+            <input type="text" asp-for="CronExpression" class="form-control" required />
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">任務類型</label>
+            <select asp-for="Type" class="form-select">
+                <option value="Console">Console</option>
+                <option value="Email">Email</option>
+                <option value="ApiCall">API 呼叫</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">任務內容 / URL</label>
+            <input type="text" asp-for="Payload" class="form-control" />
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-success">新增任務</button>
+        </div>
+    </form>
 </div>
-<form method="post">
-    <label>任務名稱：</label>
-    <input type="text" name="JobName" required />
-    <label>Cron 表達式：</label>
-    <input type="text" name="CronExpression" required />
-    <button type="submit">新增排程</button>
-</form>
