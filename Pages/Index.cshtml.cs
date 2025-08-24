@@ -11,18 +11,18 @@ namespace CoravelSchedulerApp.Pages
 public class IndexModel : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
-     private readonly AppDbContext _db;
+     private readonly CoravelContext _db;
     private readonly JobSchedulerService _scheduler;
-[BindProperty] public string JobName { get; set; }
-[BindProperty] public string CronExpression { get; set; }
-[BindProperty] public JobType Type { get; set; }
+[BindProperty] public string? JobName { get; set; }
+[BindProperty] public string? CronExpression { get; set; }
+[BindProperty] public int Type { get; set; }
 [BindProperty] public string? Payload { get; set; }
 
       //public IndexModel(ILogger<IndexModel> logger)
     //{
     //    _logger = logger;
     //}
-    public IndexModel(AppDbContext db, JobSchedulerService scheduler, ILogger<IndexModel> logger)
+    public IndexModel(CoravelContext db, JobSchedulerService scheduler, ILogger<IndexModel> logger)
     {
         _db = db;
         _scheduler = scheduler;
@@ -39,13 +39,13 @@ public async Task<IActionResult> OnPostAsync()
     {
         JobName = JobName,
         CronExpression = CronExpression,
-        Type = Type,
+        JobType = Type,
         Payload = Payload,
         IsActive = true,
         CreatedAt = DateTime.Now
     };
 
-    _db.ScheduledJobs.Add(job);
+    _db.ScheduledJob.Add(job);
     await _db.SaveChangesAsync();
     await _scheduler.ScheduleAllJobsAsync();
 

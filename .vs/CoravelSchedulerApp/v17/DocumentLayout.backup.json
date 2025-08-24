@@ -7,46 +7,246 @@
       "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:services\\jobschedulerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\coravelschedulerapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:coravelschedulerapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\pages\\logs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:pages\\logs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\pages\\logs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:pages\\logs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\models\\scheduledjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:models\\scheduledjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\models\\coravelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:models\\coravelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\models\\jobexecutionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:models\\jobexecutionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\pages\\jobs\\toggle.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:pages\\jobs\\toggle.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\pages\\jobs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:pages\\jobs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\pages\\jobs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:pages\\jobs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\pages\\jobs\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:pages\\jobs\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\pages\\jobs\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:pages\\jobs\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|c:\\users\\x415ja\\source\\repos\\coravelschedulerapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37683398-EE69-46F2-80B0-CD9A8A0426EB}|CoravelSchedulerApp.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedHeight": 189,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoravelSchedulerApp",
+              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\CoravelSchedulerApp.csproj",
+              "RelativeDocumentMoniker": "CoravelSchedulerApp.csproj",
+              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\CoravelSchedulerApp.csproj",
+              "RelativeToolTip": "CoravelSchedulerApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-24T05:16:09.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CoravelContext.cs",
+              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Models\\CoravelContext.cs",
+              "RelativeDocumentMoniker": "Models\\CoravelContext.cs",
+              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Models\\CoravelContext.cs",
+              "RelativeToolTip": "Models\\CoravelContext.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwBYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T03:00:09.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Logs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Logs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Logs\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Logs\\Index.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-23T15:06:33.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScheduledJob.cs",
+              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Models\\ScheduledJob.cs",
+              "RelativeDocumentMoniker": "Models\\ScheduledJob.cs",
+              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Models\\ScheduledJob.cs",
+              "RelativeToolTip": "Models\\ScheduledJob.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:49:48.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JobExecutionLog.cs",
+              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Models\\JobExecutionLog.cs",
+              "RelativeDocumentMoniker": "Models\\JobExecutionLog.cs",
+              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Models\\JobExecutionLog.cs",
+              "RelativeToolTip": "Models\\JobExecutionLog.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwBMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:49:00.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwCAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-23T15:06:40.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Logs\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Logs\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Logs\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Logs\\Index.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T14:59:53.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Toggle.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Jobs\\Toggle.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Jobs\\Toggle.cshtml.cs",
+              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Jobs\\Toggle.cshtml.cs",
+              "RelativeToolTip": "Pages\\Jobs\\Toggle.cshtml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwBoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T14:32:27.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Jobs\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Jobs\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Jobs\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Jobs\\Index.cshtml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T14:31:55.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Jobs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Jobs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Jobs\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Jobs\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-23T13:58:24.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Jobs\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Jobs\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Jobs\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Jobs\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T13:58:15.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Jobs\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Jobs\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Jobs\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Jobs\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvw4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T13:58:11.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
@@ -54,19 +254,21 @@
               "RelativeToolTip": "Pages\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-23T08:15:17.269Z"
+              "WhenOpened": "2025-08-23T08:15:17.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-23T07:34:30.839Z"
+              "WhenOpened": "2025-08-23T07:34:30.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,70 +278,88 @@
               "RelativeDocumentMoniker": "Services\\JobSchedulerService.cs",
               "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Services\\JobSchedulerService.cs",
               "RelativeToolTip": "Services\\JobSchedulerService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAADgv4kAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-23T07:29:54.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T07:28:04.982Z"
+              "WhenOpened": "2025-08-23T07:28:04.982Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ScheduledJob.cs",
-              "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Models\\ScheduledJob.cs",
-              "RelativeDocumentMoniker": "Models\\ScheduledJob.cs",
-              "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Models\\ScheduledJob.cs",
-              "RelativeToolTip": "Models\\ScheduledJob.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T07:21:11.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAArwCcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T07:20:49.385Z"
+              "WhenOpened": "2025-08-23T07:20:49.385Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwCUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T07:15:07.479Z"
+              "WhenOpened": "2025-08-23T07:15:07.479Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "JobsController.cs",
               "DocumentMoniker": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Controllers\\JobsController.cs",
               "RelativeDocumentMoniker": "Controllers\\JobsController.cs",
               "ToolTip": "C:\\Users\\X415JA\\source\\repos\\CoravelSchedulerApp\\Controllers\\JobsController.cs",
               "RelativeToolTip": "Controllers\\JobsController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAWwBcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwBwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T07:12:30.507Z"
+              "WhenOpened": "2025-08-23T07:12:30.507Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 211,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

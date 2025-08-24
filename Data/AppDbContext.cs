@@ -24,13 +24,17 @@ namespace CoravelSchedulerApp.Data
                 optionsBuilder.UseSqlServer("Server=.;Database=Coravel;Trusted_Connection=True;MultipleActiveResultSets=true");
             }
         }
-        public virtual DbSet<ScheduledJob> scheduledJob { get; set; }
-        public virtual DbSet<JobExecutionLog> JobExecutionLogs { get; set; }
+        public virtual DbSet<ScheduledJob>ScheduledJobs { get; set; }
+        public virtual DbSet<JobExecutionLog>JobExecutionLogs { get; set; }
         
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ScheduledJob>(entity =>
+            {
+                entity.HasKey(k => k.Id);
+            });
+            modelBuilder.Entity<JobExecutionLog>(entity =>
             {
                 entity.HasKey(k => k.Id);
             });

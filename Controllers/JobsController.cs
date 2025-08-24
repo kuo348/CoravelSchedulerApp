@@ -8,10 +8,10 @@ namespace CoravelSchedulerApp.Controllers
 [Route("api/jobs")]
 public class JobsController : ControllerBase
 {
-    private readonly AppDbContext _db;
+    private readonly CoravelContext _db;
     private readonly JobSchedulerService _schedulerService;
 
-    public JobsController(AppDbContext db, JobSchedulerService schedulerService)
+    public JobsController(CoravelContext db, JobSchedulerService schedulerService)
     {
         _db = db;
         _schedulerService = schedulerService;
@@ -21,9 +21,9 @@ public class JobsController : ControllerBase
     public async Task<IActionResult> CreateJob([FromBody] ScheduledJob job)
     {
         job.CreatedAt = DateTime.Now;
-        job.IsActive ="N";
+        job.IsActive =false;
 
-        _db.scheduledJob.Add(job);
+        _db.ScheduledJob.Add(job);
         await _db.SaveChangesAsync();
 
         await _schedulerService.ScheduleAllJobsAsync();

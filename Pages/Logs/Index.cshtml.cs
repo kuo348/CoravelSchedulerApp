@@ -1,16 +1,24 @@
-public class IndexModel : PageModel
+using CoravelSchedulerApp.Data;
+using CoravelSchedulerApp.Models;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+
+namespace CoravelSchedulerApp.Pages.Logs
 {
-    private readonly AppDbContext _db;
-    public List<JobExecutionLog> Logs { get; set; } = new();
-
-    public IndexModel(AppDbContext db) => _db = db;
-
-    public async Task OnGetAsync()
+    public class IndexModel : PageModel
     {
-        Logs = await _db.JobExecutionLogs
-            .Include(l => l.Job)
-            .OrderByDescending(l => l.ExecutedAt)
-            .Take(100)
-            .ToListAsync();
+        private readonly CoravelContext _db;
+        public List<JobExecutionLog> Logs { get; set; } = new();
+
+        public IndexModel(CoravelContext db) => _db = db;
+
+        public async Task OnGetAsync()
+        {
+            Logs = await _db.JobExecutionLog
+                //.Include(t => t.Job)
+                .OrderByDescending(t => t.Id)
+                .Take(20)
+                .ToListAsync();
+        }
     }
 }

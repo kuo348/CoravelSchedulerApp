@@ -21,8 +21,8 @@
             <tr>
                 <td>@job.JobName</td>
                 <td>@job.CronExpression</td>
-                <td>@(job.IsActive ? "✅ 啟用" : "⛔ 停用")</td>
-                <td>@job.CreatedAt.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>@(job.IsActive.Value ? "✅ 啟用" : "⛔ 停用")</td>
+                <td>@job.CreatedAt.Value.ToString("yyyy-MM-dd HH:mm")</td>
                 <td>
                     <a asp-page="./Edit" asp-route-id="@job.Id">編輯</a> |
                     <a asp-page="./Toggle" asp-route-id="@job.Id">切換狀態</a> |

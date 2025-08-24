@@ -1,5 +1,6 @@
 using Coravel;
 using CoravelSchedulerApp.Data;
+using CoravelSchedulerApp.Models;
 using CoravelSchedulerApp.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,11 +10,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 var conn = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("mssqlconnection"));
+builder.Services.AddDbContext<CoravelContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection2")));
 
 builder.Services.AddScheduler();
-builder.Services.AddScoped<JobSchedulerService>();
+builder.Services.AddTransient<JobSchedulerService>();
 builder.Services.AddHttpClient();
 
 var app = builder.Build();

@@ -3,17 +3,20 @@ using CoravelSchedulerApp.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 
-namespace CoravelSchedulerApp.Pages.Jobs;
-
-public class IndexModel : PageModel
+namespace CoravelSchedulerApp.Pages.Jobs
 {
-    private readonly AppDbContext _db;
-    public List<ScheduledJob> Jobs { get; set; } = new();
 
-    public IndexModel(AppDbContext db) => _db = db;
-
-    public async Task OnGetAsync()
+    public class IndexModel : PageModel
     {
-        Jobs = await _db.ScheduledJobs.OrderByDescending(j => j.CreatedAt).ToListAsync();
+        private readonly CoravelContext _db;
+        public List<ScheduledJob> Jobs { get; set; } = new();
+
+        public IndexModel(CoravelContext db) => _db = db;
+
+        public async Task OnGetAsync()
+        {
+            if(_db.ScheduledJob!=null)
+            Jobs = await _db.ScheduledJob.OrderByDescending(j => j.CreatedAt).ToListAsync();
+        }
     }
 }
